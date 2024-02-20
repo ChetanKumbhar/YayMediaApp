@@ -38,7 +38,17 @@ Import Project by Android Studio Menu > File > Import Project...
 
 
 ## Screenshots
+<p float="left">
+  
 
 
+<img src="https://github.com/ChetanKumbhar/YayMediaApp/assets/55182041/2436c971-8c90-456d-99dd-0fa0dca51b4f" width="200" height="400">  
 
+<img src="https://github.com/ChetanKumbhar/YayMediaApp/assets/55182041/1640cfb7-af3d-4136-9738-5abbab4c3a67" width="200" height="400">  
+
+<img src="https://github.com/ChetanKumbhar/YayMediaApp/assets/55182041/1cbcd117-6d7d-4dce-b913-2f47854d85b0" width="200" height="400">  
+<img src="https://github.com/ChetanKumbhar/YayMediaApp/assets/55182041/dd16a22e-45a0-426f-90ee-d12ec72846bc" width="200" height="400">  
+<img src="https://github.com/ChetanKumbhar/YayMediaApp/assets/55182041/98550016-e084-48f1-a526-4cb7cc215efb" width="200" height="400">  
+<img src="https://github.com/ChetanKumbhar/YayMediaApp/assets/55182041/2da30088-1a48-4b24-a1b4-5d9c8ee38510" width="200" height="400">  
+</p>
 
