@@ -39,20 +39,13 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.ImagePainter
 import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
 import com.example.yaymediaapp.R
-import com.example.yaymediaapp.data.model.Comment
-import com.example.yaymediaapp.data.model.CommentWithUser
-import com.example.yaymediaapp.data.model.Post
 import com.example.yaymediaapp.data.model.PostWithData
-import com.example.yaymediaapp.data.model.User
-import com.example.yaymediaapp.ui.theme.YayMediaAppTheme
 import org.ocpsoft.prettytime.PrettyTime
-import java.util.Date
 
 
 @Composable
@@ -223,47 +216,3 @@ fun painter(url: String, @DrawableRes tool: Int, preview: Boolean): ImagePainter
             if (preview) placeholder(tool)
         }).build()
     )
-
-@Preview
-@Composable
-fun PostCardImagePreview() {
-    YayMediaAppTheme {
-        PostCardImage(postWithData = fakePost, isLiked = false, preview = true) {}
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun PostCardPreview() {
-    YayMediaAppTheme {
-        PostCard(
-            postWithData = fakePost,
-            preview = true,
-            currentUserId = "uid",
-            onLikeOrDislike = {}
-        )
-    }
-}
-
-private val fakePost = PostWithData(
-    post = Post(
-        id = "test",
-        imageUrl = "",
-        date = Date(),
-       // date = Date(1708225192000), // Sunday, February 18, 2024 2:59:52 AM
-        userId = "test",
-        description = "Today, we walk all day long in the mountain and it was awesome !"
-    ),
-    user = User(id = "test", username = "vince.app", name = "Vincent", ""),
-    comments = listOf(
-        CommentWithUser(
-            comment = Comment("", Date(), "Yo mec comment ça va ?", "", ""),
-            user = User("", "sophy.algs", "Vince", "")
-        ),
-        CommentWithUser(
-            comment = Comment("", Date(), "Trop beau !", "", ""),
-            user = User("", "romain.glb", "Vince", "")
-        )
-    ),
-    likes = listOf()
-)

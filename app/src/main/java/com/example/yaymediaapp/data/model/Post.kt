@@ -25,12 +25,6 @@ data class PostWithData(
     )
     val user: User,
 
-    @Relation(
-        entity = Comment::class,
-        parentColumn = "id",
-        entityColumn = "postId"
-    )
-    val comments: List<CommentWithUser>,
 
     @Relation(
         entity = Like::class,
