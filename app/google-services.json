@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82711521298",
+    "project_id": "yaymediaapp",
+    "storage_bucket": "yaymediaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82711521298:android:34d70316433aba72ffd0cb",
+        "android_client_info": {
+          "package_name": "com.example.yaymediaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjl7a5Qk_vuoWpd7tOhQYyV7Zu_Eyk6Bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
