@@ -25,7 +25,7 @@ Import Project by Android Studio Menu > File > Import Project...
 
 
 ## Extensions
-* Posts can be saved on nerver and handled for all accounts.
+* Posts can be saved on server and handled for all accounts.
     - The artitecture implemented does support extension for this implementation
     - we can create Network Repository and use while adding post and fetching posts from network. 
 * unit test cases
