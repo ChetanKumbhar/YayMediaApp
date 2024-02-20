@@ -3,12 +3,18 @@ This is a sample Android App that showing Social Media Posts.
 
 ## tech stack used 
 * language - Kotlin 
-* MVVM clean artitecture, Navigation
+* MVVM clean architecture, Navigation
 * jetpack Compose for UI, room DB
-* firebase authentication for Login
+* firebase authentication.
 * Coil, Gson, Kotlinx, hilt, etc
+
+## App in-site
+
+* Firebase Authentication for login
 * Posts are handled locally for own account only now.
-  
+* Post can be liked and like status saved.
+* post can be like by double tab on image
+* This App is just to demonstrate that I can build this type of application. 
 
 ## Installation
 Download:
@@ -26,7 +32,7 @@ Import Project by Android Studio Menu > File > Import Project...
 
 ## Extensions
 * Posts can be saved on server and handled for all accounts.
-    - The artitecture implemented does support extension for this implementation
+    - The architecture implemented does support extension for this implementation
     - we can create Network Repository and use while adding post and fetching posts from network. 
 * unit test cases
 
